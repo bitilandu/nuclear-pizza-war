@@ -54,7 +54,7 @@ Screen::Screen()
 
 bool Screen::containsTouchLocation(CCTouch* touch)
 {
-	return CCRectMake(-Options::CAMERA_WIDTH / 2, -Options::CAMERA_HEIGHT / 2, Options::CAMERA_WIDTH, Options::CAMERA_HEIGHT).containsPoint(convertTouchToNodeSpaceAR(touch)); // TODO: I should check this instructions;
+	return true;
 }
 
 void Screen::onEnter()
